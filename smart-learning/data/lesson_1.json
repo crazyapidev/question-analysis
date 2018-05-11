@@ -1,0 +1,965 @@
+{
+	"books": [{
+		"book_name": "Seasons and Weather Teacher Guide",
+		"segments": [{
+				"lessons": [{
+					"lesson_name": "What's the Weather Like",
+					"sections": [{
+							"section_name": "Introducing the Read Aloud",
+							"sub_sections": [{
+									"sub_section_name": "Domain Introduction",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 5 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Briefly review different units of time as they relate to one another.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Using a large monthly calendar, point to the current date and explain that today is one day.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Then point to the entire week, Sunday through Saturday, explaining that this time period is called one week.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Ask students to count the number of days in a week.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Have one student point to each day on the calendar as the class chants the days of the week.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Next, explain that all of the weeks shown on this single page of the calendar represent a time period called a month.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Ask students to count the number of weeks in a month, pointing to the calendar.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Explain that about four weeks make up a month, and twelve months make up a year.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Now explain that within the twelve months, there are four different seasons.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Remind students that they learned about the seasons in Domain 4, Plants, and Domain 5, Farms.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Ask students to name the seasons.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Explain that the seasons—winter, spring, summer, and autumn (or fall)— occur at different times of year.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Help students match each season with the corresponding months on the calendar.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										}
+									]
+
+								},
+								{
+									"sub_section_name": "Core Connections",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 5 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Prepare students for the stylistic use of a pen pal as a narrator in this domain by using the following questions to prompt discussion",
+											"content_ref": "",
+											"content_sub_text": [{
+													"text": "Do you ever get letters from a friend or relative who lives somewhere else?"
+												},
+												{
+													"text": "From whom do you get letters?"
+												},
+												{
+													"text": "Have you ever heard the words pen pal?"
+												}
+											]
+										},
+										{
+											"content_name": "",
+											"content_text": "Explain that a pen pal is a friend with whom you exchange written letters but whom you may only see occasionally, if at all.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+
+										},
+										{
+											"content_name": "",
+											"content_text": "Show image 1A-1: Annie in Washington, D.C.",
+											"content_ref": "",
+											"content_sub_text": [{
+													"text": "Tell students that in the next several read alouds they will be hearing letters from a pretend pen pal named Annie, who lives in Washington, D.C."
+												},
+												{
+													"text": "Show students a map of the United States and point to Washington, D.C."
+												},
+												{
+													"text": "Explain that Washington, D.C. is the capital of our country, the United States of America."
+												},
+												{
+													"text": "Tell students that Washington, D.C. is where the president of our country lives and works."
+												},
+												{
+													"text": "Have students look out the window and describe the weather."
+												},
+												{
+													"text": "Next, point to the student's home town on the map and discuss whether their home town is near or far from where Annie lives."
+												},
+												{
+													"text": "Explain that not everyone in the United States has the same weather on any given day."
+												},
+												{
+													"text": "Explain that the weather where Annie lives may be very different right now from the weather in their home town (unless they live in Washington, D.C., of course)."
+												},
+												{
+													"text": "Tell students that Annie's letters will tell them about the seasons and weather in her home town of Washington, D.C."
+												}
+											]
+										}
+									]
+								},
+								{
+									"sub_section_name": "Check for Understanding",
+									"sub_section_content": [{
+											"question_type": "One-Word Answer",
+											"question": "How many days are there in a week ? ",
+											"answer": "seven"
+										},
+										{
+											"question_type": "One-Word Answer",
+											"question": "How many months are there in a year?",
+											"answer": "twelve"
+										},
+										{
+											"question_type": "One-Word Answer",
+											"question": "How many seasons are there? ",
+											"answer": "four"
+										},
+										{
+											"question_type": "One-Word Answer",
+											"question": "Is the weather the same all across the United States?",
+											"answer": "no"
+										}
+									]
+								}
+
+							]
+						},
+						{
+							"section_name": "Read Aloud",
+							"sub_sections": [{
+									"sub_section_name": "Purpose for Listening",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "Tell students to listen to learn the names of the four seasons of the year",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Tell students to listen carefully to learn about different places on Earth that have different types of weather",
+											"content_text": "",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										}
+									]
+								},
+								{
+									"sub_section_name": "What's the Weather like",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 15 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-1: Annie in Washington, D.C.",
+											"content_text": "Hello! My name is Annie, and I live in a big city called Washington, D.C. I'm in fifth grade, but I remember when I was in kindergarten, just like you. Right now in school, my class is learning about seasons and weather. Seasons are different times of the year, and weather is the temperature and conditions outside. For my school project, I’m going to be your weather pen pal. I'm going to teach you what the weather is like where I live. I will also tell you about the weather in different areas, or places, on Earth. You can help me with my project by answering all my questions, so I can learn about what the seasons and weather are like where you live.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-2: Kinds of weather",
+											"content_text": "There are many different kinds of weather. There is sunny weather, cloudy weather, windy weather, rainy weather, and stormy weather. What is the weather like outside today where you live? My teacher says that no matter where you live on Earth, the weather is always changing, hour by hour, and day by day. That means the weather never stays the same. But even though the weather changes, there are still weather patterns during certain times of the year. A pattern is something that repeats itself. For example, the weather pattern in the summer is mostly sunny and warm. Weather patterns may change a lot in some places, and very little in other places. It all depends on where you live on Earth.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-3: Earth with northern and southern polar regions colored blue",
+											"content_text": "This is a map of the earth. I’ve colored two areas on the map blue. The color blue is often used to stand for things that are cold. One is at the North Pole and one is at the South Pole. Even though the North and South Poles are at opposite ends of the earth from each other, they share the same weather patterns. The weather pattern at the North and South Poles is always cold, and the land is usually covered by ice.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-4: Antarctica",
+											"content_text": "This is the South Pole, which is located on the continent of Antarctica. It is one of the coldest places on Earth. The ground is covered by ice all year long, though it almost never rains or snows here. The wind can be strong, and the temperature is freezing cold.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-5: Middle section of the earth colored red with blue polar regions",
+											"content_text": "I’ve colored the middle area of this map red. The color red is often used to stand for things that are hot. The weather pattern in this area is usually very warm all year long. The biggest change in the weather during different times of the year is the amount of rain.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-6: Rainforest",
+											"content_text": "During certain months in the rainforest, the day may start off warm and sunny, but by afternoon it may rain very, very hard. This weather pattern occurs almost every day! This area gets lots of rain and sun almost year- round. The rain and sun keep the plants and trees green and healthy.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-7: The earth with colored areas and the United States in green",
+											"content_text": "Do you see the part of this map that is colored green? This is most of the United States, the country where we live. [Point to the United States on the image. You can also point to where Washington, D.C., is roughly located.] Most of the United States is on the continent of North America, although the state of Hawaii is made up of islands located in the Pacific Ocean. In most of the United States, it’s not always cold, like at the North and South Poles, and it’s not always hot, like at the middle section of the earth. The weather in most of the United States changes with every season, so we get cold weather, hot weather, and everything in between.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-8: Seasons",
+											"content_text": "There are four seasons in a year: winter, spring, summer, and autumn. Here, the word seasons means the different times of the year. Each season has different weather so the weather in the United States changes depending on where you live and which season it is. Plants, trees, grass, and flowers change in different seasons. You will also see different kinds of animals in different seasons.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-9: Winter",
+											"content_text": "This image shows the season called winter. Winter is the coldest season. In some places, snow and ice cover the ground during winter time. Other places that do not have snow and ice are still colder in winter than in other seasons. Some animals, like bears, sleep during the winter season.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-10: Spring",
+											"content_text": "Eventually, winter ends and spring begins. The word eventually means that something happened after some time has passed. In spring, the sun shines a little longer and warmer each day, which melts the ice and snow. The snow and ice turn to water as the sun’s warmth gets stronger. In spring, new leaves appear on the trees, new plants grow up from the warming earth, and flowers bloom again. Many baby animals are born during the spring, too!",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-11: Summer",
+											"content_text": "After spring comes summer. Summer is the hottest season of the year in the United States. Summer is the season in which all the plants are at their greenest—full of leaves, flowers, and fruit. Birds, bugs, and other animals are easiest to spot in the summer.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-12: Autumn",
+											"content_text": "Finally, after summer comes autumn. Autumn is also called “fall.” In most places in the United States, the leaves change colors and fall off certain types of trees in autumn. The air outside gets cooler and the sun shines a little less each day. Autumn is when farmers harvest their fruits and vegetables, birds fly south, and everyone gets ready for winter.",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Show image 1A-13: Seasons diagram",
+											"content_text": "Let’s say the seasons together: winter,spring, summer, and autumn. Do you know what season it is right now where you live? How do you know? [Pause for students to respond.] Each season has its own special characteristics. Characteristics are ways we can describe and group things. Each season has things that make it different from the others. For example, a characteristic of summer is hot weather, and a characteristic of winter is snow. The seasons are different depending on where you live.Not all places get snow in the winter, and not all places are steaming hot in the summer.But one thing is for sure: no matter where you live, the seasons always change in the same order, year after year. When something happens over and over again in the same order, it’ s called a cycle.Every year the cycle of the seasons begins in winter, followed by spring, summer, autumn, and back to winter. I’ ll be talking about my hometown, Washington, D.C., a lot in my letters, but the characteristics of the four seasons where you live might be a little different.It will be fun to see if your weather is different from mine! I’ ll say good bye for now, but I will write again soon.Until then, I hope you are enjoying beautiful weather where you live! Your friend, Annie ",
+											"content_ref": "image url",
+											"content_sub_text": [{}]
+										}
+									]
+								},
+								{
+									"sub_section_name": "Comprehension Questions",
+									"sub_section_content": [{
+											"question_type": "",
+											"question": "This section is 10 min <sub alias='reed'>read</sub>. ",
+											"answer": ""
+										},
+										{
+											"question_type": "Literal",
+											"question": "Which area on the map is always cold? ",
+											"answer": "It is always cold in the blue areas, which are called the North and South Poles."
+										},
+										{
+											"question_type": "Literal",
+											"question": "Which area on the map is usually warm?",
+											"answer": "It is usually warm in the red area in the middle of the earth."
+										},
+										{
+											"question_type": "Literal ",
+											"question": "Which season is the coldest? ",
+											"answer": "Winter is the coldest season."
+										},
+										{
+											"question_type": "Literal",
+											"question": "Which season is the hottest?",
+											"answer": "Summer is the hottest season."
+										},
+										{
+											"question_type": "Inferential ",
+											"question": "What are some characteristics of, or ways to describe, autumn? ",
+											"answer": "In the fall, the leaves are changing colors and falling off certain types of trees. It also starts to get a little colder outside.)"
+										},
+										{
+											"question_type": "Inferential",
+											"question": "What are some characteristics of, or ways to describe, spring? ",
+											"answer": "In the spring, it starts to get warmer outside. New leaves start to grow on trees, flowers bloom, and new plants grow."
+										},
+										{
+											"question_type": "Evaluative Think Pair Share",
+											"question": "What were the most interesting facts you learned from the read-aloud today? ",
+											"answer": "Answers may vary, but should include support from the read-aloud."
+										},
+										{
+											"question_type": "Inferential",
+											"question": "What did the author say that made them more interesting to you?",
+											"answer": "Answers may vary, but should include support from the read-aloud."
+										}
+									]
+								},
+								{
+									"sub_section_name": "Word Work Characteristics",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 5 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "In the read-aloud you heard, 'Each season has its own special characteristics.'",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Say the word characteristics with me.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Characteristics are ways we can describe and group people and things.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Characteristics of summer in the United States include hot temperatures and a lot of sunshine.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Describe some characteristics of the person sitting next to you. Try to use the word characteristics when you describe your neighbor.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "What's the word we've been talking about?",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Is characteristics a singular word or a plural word? (plural) How do you know? (It ends with an ‘s’; it means more than one, etc.) Can you think of other words that are plural? (Answers may vary.)",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "If any of the things I say are examples of the characteristics of a good friend, say, “That is a characteristic of a good friend.” If they aren’t characteristics of a good friend, say, “That is not a characteristic of a good friend.",
+											"content_text": "Use a Making Choices activity for follow-up",
+											"content_ref": "",
+											"content_sub_text": [{
+													"text": "being a good listener",
+													"sub_text": "That is a characteristic of a good friend"
+												},
+												{
+													"text": "sharing",
+													"sub_text": "That is a characteristic of a good friend"
+												},
+												{
+													"text": "always wanting to do things his or her way ",
+													"sub_text": "That is not a characteristic of a good friend"
+												},
+												{
+													"text": "being fun to play with",
+													"sub_text": "That is a characteristic of a good friend"
+												}
+											]
+
+										}
+									]
+								},
+								{
+									"sub_section_name": "Check for Understanding",
+									"sub_section_content": [{
+											"content_name": "Turn and Talk",
+											"question": "What is the weather like in the South Pole? ",
+											"answer": "The weather is very cold, the land is covered by ice, there are glaciers in the surrounding water, and it rarely rains or snows."
+										},
+										{
+											"content_name": "Turn and Talk",
+											"question": "What is the weather like at the Equator? ",
+											"answer": "It is very warm most of the year, the amount of rain varies throughout the year, and there are rainforests there."
+										}
+									]
+								}
+							]
+						},
+						{
+							"section_name": "Application",
+							"sub_sections": [{
+									"sub_section_name": "Multiple Meaning Word Activity Seasons",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 5 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "Sentence in Context: Seasons Show Poster 1M: Seasons",
+											"content_text": "Remind students that in the read-aloud they heard, “There are four seasons in a year: winter, spring, summer, and autumn.”",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "The word seasons is a plural word, meaning there is more than one. How many seasons are there? (four) What is the singular word for seasons, meaning only one? (season)",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Here, seasons mean the different times of the year",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Have students hold up one or two fingers to indicate which image on the poster shows this meaning",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Seasons can also mean adds spice to food to give it more flavor.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Have students turn to a neighbor and make a sentence for each meaning of seasons.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Tell students to use complete sentences",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Call on several students to share their sentences.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										}
+									]
+								},
+								{
+									"sub_section_name": "Weather Diary",
+									"sub_section_content": [{
+											"content_name": "",
+											"content_text": "This section is 15 min <sub alias='reed'>read</sub>. ",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Discuss with students the current season and ask them what the weather has been like in your area the last few days.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Tell students that they will keep a weather diary over the course of the next week to track the weather on a daily basis.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Provide each student with a copy of content Page 1.1 and three pieces of paper in order to make a small weather diary, starting with today’s date.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "If possible, take the class outdoors for a “weather walk” at the same time each day to discuss the day’s weather and to make recordings in the weather diary.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "If it is not possible to go outside, observe the weather from a classroom window.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Have students draw a simple picture of a sun, a sun with clouds, clouds, or clouds and rain depending on the weather each day.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "If you have an outside thermometer, you may also wish to have students write down the outside temperature, and/or have them draw a simple thermometer and color in how high or low the liquid in the thermometer is.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Reinforce the concept of yesterday, today, and tomorrow by asking the following questions to prompt discussion:",
+											"content_ref": "",
+											"content_sub_text": [{
+													"question": "What is the weather like today?"
+												},
+												{
+													"question": "How is the weather today different from the weather yesterday?"
+												},
+												{
+													"question": "What do you think the weather will be like tomorrow?"
+												}
+											]
+										},
+										{
+											"content_name": "",
+											"content_text": "With assistance, have students use the Internet to locate images and information for their weather diary.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										},
+										{
+											"content_name": "",
+											"content_text": "Collect the weather diaries to monitor progress. Be sure to return them to students for the next lessons.",
+											"content_ref": "",
+											"content_sub_text": [{}]
+										}
+									]
+								}
+							]
+						},
+						{
+							"section_name": "Take Home Material",
+							"sub_sections": [{
+								"sub_section_name": "Family Letter",
+								"sub_section_content": [{
+									"content_text": "Send home content Page 1.2.",
+									"content_ref": "Send home content Page 1.2.",
+									"content_name": "",
+									"content_sub_text": [{}]
+								}]
+							}]
+						}
+					],
+					"additional_sections": [{
+							"section_name": "Primary Focus of Lesson",
+							"section_content": [{
+									"content_name": "Speaking and Listening",
+									"content_text": "Students will discuss the purpose of a calendar and how to use it.",
+									"content_ref": "[SL.K.1]",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "Reading",
+									"content_text": "Students will identify the four seasons and describe different types of weather.",
+									"content_ref": "[RI.K.3]",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "Language",
+									"content_text": "Students will demonstrate an understanding of the Tier 2 word characteristics.",
+									"content_ref": "[L.K.5c]",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "Writing",
+									"content_text": "With assistance, students will use drawing to describe characteristics of the weather and make predictions about the weather in the future.",
+									"content_ref": "[W.K.2]",
+									"content_sub_text": [{}]
+								}
+							]
+						},
+						{
+							"section_name": "Formative Assessment",
+							"section_content": [{
+								"content_name": "content Page 1.1",
+								"content_text": "Weather Diary, Students will use a drawing content to observe and predict the weather",
+								"content_ref": "[W.K.2]",
+								"content_sub_text": [{}]
+							}]
+						},
+						{
+							"section_name": "Lesson at a Glance",
+							"section_content": [{
+									"content_name": "",
+									"content_text": "Introducing the Read-Aloud, Domain Introduction and Core Connections, Grouping Whole Group, Time 10 minutes, Materials Monthly calendar and U.S. map",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Read Aloud, Purpose for Listening , Grouping: Whole Group, Time: 30 minutes, “What's the Weather Like?”, Grouping: Whole Group, Time: 30 minutes, Comprehension Questions, Grouping: Whole Group, Time: 30 minutes, Word Work Characteristics, Grouping: Whole Group, Time: 30 minutes",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Application, Multiple Meaning Word Activity: Seasons, Grouping: Whole Group Independent, Time: 20 minutes, Materials: Poster 1M: Seasons, Activity Page 1.1. paper, stapler and drawing tools, Weather Diary Grouping: Whole Group Independent, Time: 20 minutes, Materials: Poster 1M: Seasons, Activity Page 1.1. paper, stapler and drawing tools",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Take-Home Material, Family Letter (Activity Page 1.2)",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								}
+							]
+						},
+						{
+							"section_name": "Advance Preparation",
+							"section_content": [{
+									"content_name": "Introducing the Read Aloud",
+									"content_text": "",
+									"content_ref": "",
+									"content_sub_text": [{
+											"text": "Prepare a monthly calendar for discussion. You may wish to display a calendar for the duration of this domain.",
+											"sub_text": ""
+										},
+										{
+											"text": "Prepare a U.S. map for display during this domain.",
+											"sub_text": "If possible, color the North and South Poles blue. Color the area around the equator red, and color the rest of the map green."
+										},
+										{
+											"text": "Prepare to locate Washington, D.C. on a map.",
+											"sub_text": ""
+										}
+									]
+								},
+								{
+									"content_name": "Notes to Teacher",
+									"content_text": "This lesson assumes that students already have some experience using a monthly calendar. The discussion in Introducing the Read-Aloud constitutes a review of the basic units of time, such as day, week, month, and year. If students have had little or no prior experience with the use of a monthly calendar, it is strongly recommended that such a calendar be introduced and used on a daily basis as this domain is taught, in order to solidify student's knowledge of the basic units of time.",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "Application",
+									"content_text": "",
+									"content_ref": "",
+									"content_sub_text": [{
+											"text": "Prepare weather diaries (content Page 1.1) for each student. Collect them after use each day to ensure that students do not lose them.",
+											"sub_text": ""
+										},
+										{
+											"text": "Prepare to take students on a “weather walk” each day, if possible",
+											"sub_text": ""
+										},
+										{
+											"text": "If possible, display a thermometer outside the school building so that you can read the temperature each day. If that isn’t possible, refer to a weather website for daily temperatures.",
+											"sub_text": ""
+										},
+										{
+											"text": "If possible, secure computer access for students to find out about the weather in other regions.",
+											"sub_text": ""
+										}
+									]
+								},
+								{
+									"content_name": "Universal Access",
+									"content_text": "Gather different books about weather to pass around the class. The school and local libraries may be good resources.",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								}
+							]
+						},
+						{
+							"section_name": "Core Vocabulary",
+							"section_content": [{
+									"word": "characteristics",
+									"word_type": "noun",
+									"word_meaning": "ways we can describe and group people or things ",
+									"word_example": "Two of Yesenia's characteristics are her curly hair and her kindness.",
+									"word_variations": "characteristic"
+								},
+								{
+									"word": "cycle",
+									"word_type": "noun",
+									"word_meaning": "events that happen over and over in the same order",
+									"word_example": "The cycle of the seasons happens every year and includes winter, spring, summer, and autumn.",
+									"word_variations": "cycles "
+								},
+								{
+									"word": "patterns",
+									"word_type": "noun",
+									"word_meaning": "things that repeat themselves over and over",
+									"word_example": "The pattern on her shirt was made up of green, red, and blue hearts.",
+									"word_variations": "pattern"
+								},
+								{
+									"word": "seasons",
+									"word_type": "noun",
+									"word_meaning": "the different times of the year—winter, spring, summer, and autumn",
+									"word_example": "My favorite seasons are spring and summer because the weather is warmer and there is more time to play outside.",
+									"word_variations": "season"
+								},
+								{
+									"word": "weather",
+									"word_type": "noun",
+									"word_meaning": "the temperature and other outside conditions at a particular time and place",
+									"word_example": "Tomorrow the weather will be cold and rainy",
+									"word_variations": ""
+								}
+							]
+						}
+					]
+				}]
+			},
+			{
+				"introduction": {
+					"sections": [{
+							"section_name": "Introduction",
+							"section_text": "This introduction includes the necessary background information to be used in teaching the Seasons and Weather domain. The Teacher Guide for Seasons and Weather contains eight daily lessons, each of which is composed of two distinct parts, so that the lesson may be divided into smaller chunks of time and presented at different intervals during the day. Each entire lesson will require a total of sixty minutes. This domain includes a Pausing Point following Lesson 5, after all four seasons have been introduced. At the end of the domain, a Domain Review, a Domain Assessment, and Culminating Activities are included to allow time to review, reinforce, assess, and remediate content knowledge. You should spend no more than fifteen days total on this domain.",
+							"section_content": [{}]
+						},
+						{
+							"section_name": "Domain Components ",
+							"section_text": "",
+							"section_content": [{
+									"content_name": "Along with this Teacher Guide, you will need:",
+									"content_text": "Flip Book for Seasons and Weather, which can also be found on the CKLATM Teacher Resources website at CKLA.Amplify.com",
+									"content_ref": ""
+								},
+								{
+									"content_name": "",
+									"content_text": "Image Cards for Seasons and Weather",
+									"content_ref": ""
+								},
+								{
+									"content_name": "",
+									"content_text": "Activity Book for Domains 7-12",
+									"content_ref": ""
+								},
+								{
+									"content_name": "",
+									"content_text": "Digital Components for Seasons and Weather",
+									"content_ref": ""
+								}
+							]
+						},
+						{
+							"section_name": "Recommended Resources",
+							"section_text": "You should consider various times throughout the day when you might infuse the curriculum with authentic domain-related literature. If you are able to do so, you may recommend students select books from the Recommended Resources list. In addition, if you recommend that families read aloud with their child each night, you may wish to suggest that they choose titles from this list to reinforce the concepts covered in this unit. You might also consider creating a classroom lending library, allowing students to borrow domain- related books to read at home with their families. The Recommended Resources list, which also includes online resources, can be found online in the digital components for this domain at CoreKnowledge.org/CKLA-files and at CKLA.Amplify.com. Core Knowledge Kindergarten Teacher Handbook, edited by E. D. Hirsch, Jr. and Souzanne A. Wright (Core Knowledge Foundation, 2004) ISBN 978-1890517694",
+							"section_content": [{}]
+						},
+						{
+							"section_name": "Why Seasons and Weather are important ",
+							"section_text": "This domain will introduce students to the concept of weather. Students will learn that different regions of Earth experience different weather patterns throughout the year. They will also learn that we can think about a year and the related weather patterns in terms of four seasons: winter, spring, summer, and autumn. Students will also learn why knowing about the weather is important, and how weather affects our daily lives and activities. As the weather associated with each season varies depending upon where one lives, students throughout the United States will have different experiences with regard to the four seasons. There are, however, certain common seasonal features that will be true for all children living within the continental United States; for example, summer is always a warmer season, in general, than winter. The lessons and read-alouds included in this domain have been carefully written to make these common seasonal features clear, while still encouraging you to customize the discussions and subsequent activities to make students aware of the specific weather patterns in your area. Implicit in understanding the relationship between weather and seasons is having an understanding of time. Your student's grasp of the concepts discussed in this domain will be enhanced if they are already somewhat familiar with basic temporal concepts, such as day, week, month, and year. You will note that, within the lessons that follow, we recommend frequently referencing to a monthly calendar as a way of making the idea of time concrete. The kinds of directed observations and hands-on activities associated with documenting the daily weather—such as looking at a thermometer, examining precipitation collected in a rain gauge, or observing the types of clouds in the sky—will help students more fully grasp the concepts they will hear about in this domain. ",
+							"section_content": [{}]
+						},
+						{
+							"section_name": "Core Content Objectives ",
+							"section_text": "",
+							"section_content": [{
+									"content_name": "",
+									"content_text": "Demonstrate understanding of the following units of time and their relationship to one another: day, week, month, year",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Name the four seasons in cyclical order, as experienced in the United States, and correctly name a few characteristics of each season",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Characterize winter as generally the coldest season, summer as generally the warmest season, and spring and autumn as transitional seasons",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Draw pictures that show an understanding of each season",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Characterize the North and South Poles as always cold in temperature, the middle section of the earth as usually warm, and most of the United States as having four seasons",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Describe daily weather conditions of their own locality in terms of temperature (hot, warm, cool, cold), cloud cover (sunny, cloudy), and precipitation (rain, snow, sleet)",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Name at least one month in a specific season while referring to a calendar",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Name at least one holiday in a specific season",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Describe any unique seasonal differences that are characteristic of their own locality (change of color and dropping of leaves in autumn; snow or ice in winter; increased rain, and/or flooding in spring, etc.)",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Identify ways in which weather affects daily routines, such as dress, activities, etc.",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Identify a thermometer as an instrument used to measure temperature and describe how it works",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Explain the lesson the grasshopper learns at the end of the fable, “The Grasshopper and the Ants”",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Identify characteristics of thunderstorms",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Describe safe and unsafe behaviours during thunderstorms",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Explain why weather prediction is important in daily life",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								}
+							]
+						},
+						{
+							"section_name": "Core vocabulary for Season and Weather ",
+							"section_text": "The following list contains all of the core vocabulary words in Seasons and Weather in the forms in which they appear in the read-alouds or, in some instances, in the “Introducing the Read-Aloud” section at the beginning of the lesson. Boldfaced words in the list have an associated Word Work activity. The inclusion of the words on this list does not mean that students are immediately expected to be able to use all of these words on their own. However, through repeated exposure throughout the lessons, they should acquire a good understanding of most of these words and begin to use some of them in conversation.",
+							"section_content": [{
+									"content_name": "",
+									"content_text": "Lesson 1 characteristics, cycle, patterns, seasons, weather",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 2 blizzards, cautiously, freezing point, frigid, halt",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 3 floods, gradually, thaw ",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 4 distinct, indoors, sunscreen, thermometer",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 5 chill, progresses",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 6 future, last, shivering",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 7 gear, severe, shelter, strike",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "Lesson 8 meteorologist, meteorology, record, satellites, warning",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								}
+							]
+						},
+						{
+							"section_name": "Writing ",
+							"section_text": "",
+							"section_content": [{
+									"content_name": "",
+									"content_text": "In this domain, students will focus on using details to describe key concepts in informational texts about Seasons and Weather. Students will create a Weather Diary to observe, record, and predict the weather. They will also use drawing to identify important characteristics of the seasons, and they will complete a sequencing activity to illustrate the cycle of seasons. Students will also present a weather report at the end of the domain.",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								},
+								{
+									"content_name": "",
+									"content_text": "The following activities may be added to student's writing portfolios to showcase student writing within and across domains.\n Weather Diary (Lessons 1, 2, 3, 4, 7)\n Drawing and Sequencing the Seasons (Lessons 5, 6).\n any additional writing completed during the Pausing Point, Domain Review, or Culminating Activities",
+									"content_ref": "",
+									"content_sub_text": [{}]
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}]
+}

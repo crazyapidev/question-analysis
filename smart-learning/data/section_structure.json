@@ -1,0 +1,101 @@
+{
+	"segments": [{
+			"lessons": [{
+				"lesson_name": "What's the Weather Like",
+				"sections": [{
+						"section_name": "Introducing the Read Aloud",
+						"sub_sections": [{
+								"sub_section_name": "Domain Introduction"
+							},
+							{
+								"sub_section_name": "Core Connections"
+							},
+							{
+								"sub_section_name": "Check for Understanding"
+							}
+						]
+					},
+					{
+						"section_name": "Read Aloud",
+						"sub_sections": [{
+								"sub_section_name": "Purpose for Listening"
+							},
+							{
+								"sub_section_name": "WHAT'S THE WEATHER LIKE"
+							},
+							{
+								"sub_section_name": "Comprehension Questions"
+							},
+							{
+								"sub_section_name": "Word Work Characteristics"
+							},
+							{
+								"sub_section_name": "Check for Understanding"
+							}
+						]
+					},
+					{
+						"section_name": "Application",
+						"sub_sections": [{
+								"sub_section_name": "Multiple Meaning Word Activity Seasons"
+							},
+							{
+								"sub_section_name": "Weather Diary"
+							}
+						]
+					},
+					{
+						"section_name": "Take Home Material",
+						"sub_sections": [{
+							"sub_section_name": "Family Letter"
+						}]
+					}
+				],
+				"additional_sections": [{
+						"section_name": "PRIMARY FOCUS OF LESSON"
+					},
+					{
+						"section_name": "FORMATIVE ASSESSMENT"
+					},
+					{
+						"section_name": "LESSON AT A GLANCE"
+					},
+					{
+						"section_name": "ADVANCE PREPARATION"
+					},
+					{
+						"section_name": "CORE VOCABULARY"
+					}
+				]
+			}]
+		},
+		{
+			"introduction": {
+				"sections": [{
+						"section_name": "Introduction"
+					},
+					{
+						"section_name": "Domain components "
+					},
+					{
+						"section_name": "Recommended resources"
+					},
+					{
+						"section_name": "WHY SEASONS AND WEATHER ARE IMPORTANT "
+					},
+					{
+						"section_name": "Core content objectives "
+
+					},
+					{
+						"section_name": "Core vocabulary for season and weather "
+
+					},
+					{
+						"section_name": "Writing "
+					}
+				]
+			}
+		}
+	]
+}

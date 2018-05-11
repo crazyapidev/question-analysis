@@ -1,0 +1,137 @@
+ENTY:event-When do leaves fall from trees?										## higher span(which has greater preference) for incorrect passage
+ENTY:event-In which season do the farmers harvest their fruits and vegetables?	## question classifier issue only
+ENTY:event-In which season do the birds fly south?								## question classifier issue only
+ENTY:product-What do the farmers harvest in the autumn season?					## question classifier issue only
+ENTY:product-What is harvested in the autumn season?							## question classifier issue only
+ENTY:event-When do leaves change color?											## incorrect passage bcos of lemma issues
+
+NUM:count-How many seasons in a year?
+ENTY:color-What color areas on the map are usually cold?   ## high keyword match, similarity match and longest seq. match for other sentence in the correct passage
+ENTY:color-What color areas on the map are usually hot?	   ## high keyword match, similarity match and longest seq. match for other sentence in the correct passage
+ENTY:color-What color areas on the map stand for cold?	   ## high keyword match, similarity match and longest seq. match for other sentence in the correct passage
+ENTY:color-What color areas on the map stand for hot?      ## high keyword match, similarity match and longest seq. match for other sentence in the correct passage
+ENTY:color-What color areas on the map are usually warm?   ## high keyword match, similarity match and longest seq. match for other sentence in the correct passage
+ENTY:event-What does the color blue on the map stand for?
+ENTY:event-What does the color red on the map stand for?
+ENTY:event-Which season is the coldest? 
+ENTY:event-Which season is the hottest?
+ENTY:event-Which season is the warmest?  
+
+ENTY:event-What are the different kinds of weather?                        ## question classifier issue only
+ENTY:event-What are the different kinds of weather conditions possible?    ## question classifier issue only
+ENTY:event-Which are the different kinds of weather?
+ENTY:event-Which are the different kinds of weather conditions possible?
+ENTY:event-What is the weather pattern in the summer?
+ENTY:event-How is the weather like in the summer?                          ## low keyword match, high similarity match and equal longest seq. match for other(incorrect) sentence in the correct passage; so the first(incorrect) sentence in order chosen                      
+ENTY:event-How is the weather like during the summer?					   ## low keyword match, high similarity match and equal longest seq. match for other(incorrect) sentence in the correct passage; so the first(incorrect) sentence in order chosen
+ENTY:event-What is the weather like during the summer?					   ## low keyword match, high similarity match and equal longest seq. match for other(incorrect) sentence in the correct passage; so the first(incorrect) sentence in order chosen
+ENTY:event-Which season is sunny and warm?								   ## equal keyword match, equal span match, slightly higher similarity for the incorrect passage; hence correct passage not at the top in ordering of candidate passages
+ENTY:event-What weather type is present in the North Pole?
+ENTY:event-What weather type is present in the South Pole?
+ENTY:event-What is the weather like in the North Pole?
+ENTY:event-What is the weather like in the South Pole?
+ENTY:event-What is the weather in the regions marked blue on the map like?
+ENTY:event-What is the weather in the regions marked red on the map like ?
+ENTY:event-How is the weather in the regions marked blue on the map?
+ENTY:event-How is the weather in the regions marked red on the map?
+LOC:other-In which continent is the South Pole located?
+LOC:other-Where is the South Pole located?
+LOC:other-In which continent is the South Pole?
+LOC:other-Where is the South Pole?											## Equal feature values, hence the one at the top chosen as answer
+LOC:other-In which continent is USA?										## Rephrase the question
+LOC:other-In which continent is United States of America?
+LOC:other-In which continent is the United States?
+LOC:other-Where is USA?														## Rephrase the question
+LOC:other-Where is United States of America?
+LOC:other-Where is the United States?
+LOC:other-In which continent is United States of America located?
+
+LOC:other-In which continent is the United States located?
+LOC:other-Where is USA located?												## Rephrase the question
+LOC:other-Where is United States of America located?
+LOC:other-Where is the United States located?
+ENTY:product-What do we find in abundance in the North and South Pole?
+ENTY:product-What is the North and South Pole covered in?
+ENTY:product-What is the North and South Pole full of?							## question classifier issue only 
+ENTY:product-Which substance is found in plenty in the North and South pole?
+ENTY:product-What form of water is found in the North and South Pole?
+ENTY:product-In which form is water found in the North and South Pole?          ## question classifier issue only
+ENTY:event-What is the weather pattern in the middle sections of the earth?		## candidate passage wrong
+ENTY:event-How is the weather in the middle sections of the earth?				## candidate passage wrong
+ENTY:event-How is the weather pattern in the middle sections of the earth?		## candidate passage wrong
+LOC:other-Which area gets lots of rain and sun almost year round?
+ENTY:event-What keeps the plants green and healthy?
+ENTY:event-What is needed for the plants to remain green and healthy?
+ENTY:event-What are the four seasons of the year?								## question classifier issue only
+ENTY:event-Which are the seasons of the year?
+ENTY:event-Which is the coldest season?
+ENTY:product-What covers the ground during wintertime?
+ENTY:product-What is the ground full of during the winters?						## question classifier issue only
+ENTY:product-What do we see on the ground during the winters?
+ENTY:product-What is on the ground during winters?								## question classifier issue only
+ENTY:product-What forms of water are on the ground during winters?
+ENTY:product-Which substances abound the ground during winters?					## Rephrase the question
+ENTY:animal-Which animal sleeps during the winters?
+ENTY:animal-Which animals are easy to spot in the spring?
+ENTY:animal-Which creatures migrate to the south in autumn?
+ENTY:animal-Which animals migrate to the south in autumn?
+ENTY:event-In which season are usually many baby animals born?					## question classifier issue only
+ENTY:event-When are birds, bugs and other animals easy to spot?
+ENTY:event-In which season are birds, bugs and other animals easy to spot?      ## question classifier issue only
+ENTY:event-In which season do bears sleep?										## question classifier issue only
+ENTY:event-Which is the first season?											## Rephrase the question
+ENTY:event-After which season does spring come?
+ENTY:event-After which season does spring arrive?
+ENTY:event-Which season precedes spring?
+ENTY:event-Which season comes before spring?
+ENTY:event-Before which season does winter come?
+ENTY:event-Before which season does winter arrive?
+ENTY:event-Which season succeedes winter?
+ENTY:event-Which season comes after winter?
+ENTY:event-In which season does ice and snow melt?								## question classifier issue; also more similarity for incorrect passage, the other features having same values 
+ENTY:event-When does ice and snow melt?
+ENTY:product-What do snow and ice turn change to in spring?
+ENTY:product-What do snow and ice turn into when they melt in spring?			## Correct passage, incorrect sentence
+ENTY:product-What do snow and ice form when they melt in spring?				## Correct passage, incorrect sentence
+ENTY:event-In which season do new leaves appear on the trees?					## question classifier issue only
+ENTY:event-In which season do new plants grow up from the warming earth?		## question classifier issue only
+ENTY:event-In which season do flowers bloom again?								## question classifier issue only
+ENTY:event-When do new leaves appear on the trees?
+ENTY:event-When do new plants grow up from the warming earth?
+ENTY:event-When do flowers bloom again?
+ENTY:event-Which season comes after spring?
+ENTY:event-Which season comes before summer?
+ENTY:event-Which is the hottest season of the year?
+ENTY:event-Which season are the plants greenest in?
+ENTY:event-In which season are the trees full of leaves, flowers and fruits?	         ## question classifier issue; higher keyword match, higher span match for incorrect passage bcoz of some special character and lemma issue
+ENTY:event-In which season are the birds, bugs, and other animals are easiest to spot?	 ## question classifier issue only
+ENTY:event-When are the trees full of leaves, flowers and fruits?
+ENTY:event-When are the birds, bugs, and other animals are easiest to spot?
+ENTY:event-Which season comes after summer?
+ENTY:event-Which season comes before autumn?
+ENTY:event-What is autumn also called?
+ENTY:event-Which season is also called the fall?
+ENTY:event-In which season do leaves change color?
+ENTY:event-In which season do leaves fall from trees?
+
+
+
+NUM:count-How many seasons in a year?
+ENTY:event-What are the different kinds of weather?
+ENTY:event-What is the weather pattern in the summer mostly like?     
+ENTY:product-What is the land covered by at the North and South Poles? 		## question classifier issue
+LOC:other-Which area gets lots of rain and sun all round the year?
+ENTY:event-What keeps the plants green and healthy?
+ENTY:event-Which are the four seasons of the year?
+ENTY:event-Which season is the coldest?
+ENTY:event-What does the color blue on the map usually stand for? 
+ENTY:event-What does the color red on the map stand for?
+LOC:other-In which continent is the South Pole located?
+LOC:other-In which continent is the United States located?
+ENTY:animal-Which animal sleeps during the winter season?
+ENTY:product-What covers the ground during wintertime?
+ENTY:product-What are the plants full of during the summer season? 			## question classifier issue
+ENTY:event-In which season are the animals easy to spot? 					## question classifier issue
+ENTY:event-Which season is also called the fall?
+ENTY:product-What do the farmers harvest in the autumn season?				## question classifier issue
+ENTY:event-Which season comes after summer? 

@@ -1,0 +1,12 @@
+scikit-learn==0.18.2
+mock
+nltk
+flask
+numpy
+word2number
+scipy
+spacy
+elasticsearch
+joblib
+sklearn_crfsuite
+pint

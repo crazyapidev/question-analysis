@@ -1,0 +1,1280 @@
+2018-05-09 16:00:32,187 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-09 16:01:15,452 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "f99a806a-685c-4901-b1a2-22332ca38f53",
+    "timestamp": "2018-04-27T04:40:59.784Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "introduction",
+        "action": "",
+        "actionIncomplete": false,
+        "parameters": {
+            "segment": "introduction"
+        },
+        "contexts": [
+            {
+                "name": "smartlearningreadoutintroductorysegment-followup-2",
+                "parameters": {
+                    "segment.original": "introduction",
+                    "segment": "introduction"
+                },
+                "lifespan": 2
+            },
+            {
+                "name": "defaultwelcomeintent-yes-followup",
+                "parameters": {
+                    "segment.original": "introduction",
+                    "segment": "introduction"
+                },
+                "lifespan": 1
+            },
+            {
+                "name": "operations-followup",
+                "parameters": {
+                    "segment.original": "introduction",
+                    "segment": "introduction"
+                },
+                "lifespan": 1
+            }
+        ],
+        "metadata": {
+            "intentId": "8dd4095a-284c-4fac-940d-4449b2a38d15",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 195,
+            "intentName": "smartlearning.readout.introductorySegment"
+        },
+        "fulfillment": {
+            "speech": "introduction segment contains 7 sections, They are Introduction, Domain components, Recommended resources, WHY SEASONS AND WEATHER ARE IMPORTANT, Core content objectives, Core vocabulary for season & weather , Writing. Which section you want to me to read.",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "introduction segment contains 7 sections, They are Introduction, Domain components,  Recommended resources, WHY SEASONS AND WEATHER ARE IMPORTANT,  Core content objectives,  Core vocabulary for season & weather , Writing. Which section you want to me to read."
+                }
+            ]
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: 404 Not Found",
+        "webhookTimedOut": false
+    },
+    "sessionId": "a3c8b152-ee55-4371-a697-d6268f53fbe1"
+}
+2018-05-09 16:01:15,559 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"I'm sorry. I didn't quite grasp what you just said.\"</speak>",
+    "displayText": "I'm sorry. I didn't quite grasp what you just said.",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    },
+    "contextOut": [
+        {
+            "name": "smartlearningreadoutintroductorysegment-followup-2",
+            "parameters": {
+                "segment.original": "introduction",
+                "segment": "introduction"
+            },
+            "lifespan": 2
+        },
+        {
+            "name": "defaultwelcomeintent-yes-followup",
+            "parameters": {
+                "segment.original": "introduction",
+                "segment": "introduction"
+            },
+            "lifespan": 1
+        },
+        {
+            "name": "operations-followup",
+            "parameters": {
+                "segment.original": "introduction",
+                "segment": "introduction"
+            },
+            "lifespan": 1
+        }
+    ]
+}
+2018-05-09 16:01:15,559 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [09/May/2018 16:01:15] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-09 16:01:42,182 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "3d70e9f2-9fcf-49c6-b4e8-aa269c9f098b",
+    "timestamp": "2018-04-27T07:55:40.173Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "read read aloud section",
+        "action": "read.lesson.section.content",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_section": "Read Aloud"
+        },
+        "contexts": [
+            {
+                "name": "smartlearningreadoutlesson-followup",
+                "parameters": {
+                    "lesson_section.original": "read aloud",
+                    "lesson_name.original": "what's the weather like",
+                    "lesson_name": "What's the Weather Like",
+                    "lesson_sub_section.original": "purpose for listening",
+                    "lesson_section": "Read Aloud",
+                    "lesson_sub_section": "purpose for listening"
+                },
+                "lifespan": 17
+            },
+            {
+                "name": "operations-followup",
+                "parameters": {
+                    "lesson_section.original": "read aloud",
+                    "lesson_name.original": "what's the weather like",
+                    "lesson_name": "What's the Weather Like",
+                    "lesson_sub_section.original": "purpose for listening",
+                    "lesson_section": "Read Aloud",
+                    "user_id": [],
+                    "lesson_sub_section": "purpose for listening",
+                    "query": "read read aloud section",
+                    "sessionId": "a3c8b152-ee55-4371-a697-d6268f53fbe1",
+                    "previous_response": "Read Aloud section contains 5 sections, They are Purpose for Listening <break time='1s' /> WHAT'S THE WEATHER LIKE <break time='1s' /> Comprehension Questions <break time='1s' /> Word Work Characteristics <break time='1s' /> Check for Understanding<break time = '1s' /> You may ask the Bot to repeat or skip or jump to the next or previous section anytime",
+                    "intent": "smartlearning.readout.lesson.section"
+                },
+                "lifespan": 1
+            },
+            {
+                "name": "smartlearningreadoutlessonsection-followup",
+                "parameters": {
+                    "lesson_section.original": "read aloud",
+                    "lesson_section": "Read Aloud"
+                },
+                "lifespan": 2
+            }
+        ],
+        "metadata": {
+            "intentId": "11f0f3af-1221-4153-8a3e-595ec20dd715",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 69,
+            "intentName": "smartlearning.readout.lesson.section"
+        },
+        "fulfillment": {
+            "speech": "<speak>Read Aloud section contains 5 sections, They are Purpose for Listening <break time='1s' /> WHAT'S THE WEATHER LIKE <break time='1s' /> Comprehension Questions <break time='1s' /> Word Work Characteristics <break time='1s' /> Check for Understanding<break time = '1s' /> You may ask the Bot to repeat or skip or jump to the next or previous section anytime</speak>",
+            "displayText": "Read Aloud section contains 5 sections, They are Purpose for Listening <break time='1s' /> WHAT'S THE WEATHER LIKE <break time='1s' /> Comprehension Questions <break time='1s' /> Word Work Characteristics <break time='1s' /> Check for Understanding<break time = '1s' /> You may ask the Bot to repeat or skip or jump to the next or previous section anytime",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>Read Aloud section contains 5 sections, They are Purpose for Listening <break time='1s' /> WHAT'S THE WEATHER LIKE <break time='1s' /> Comprehension Questions <break time='1s' /> Word Work Characteristics <break time='1s' /> Check for Understanding<break time = '1s' /> You may ask the Bot to repeat or skip or jump to the next or previous section anytime</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "a3c8b152-ee55-4371-a697-d6268f53fbe1"
+}
+2018-05-09 16:01:43,754 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"Read Aloud section contains 5 sub-sections.They are -Purpose for Listening, What's the weather like, Comprehension Questions, Word Work Characteristics and Check for Understanding<break time = '0.5s' />. You can ask me to repeat, skip or jump to the previous or next sub-section anytime\"</speak>",
+    "displayText": "Read Aloud section contains 5 sub-sections.They are -Purpose for Listening, What's the weather like, Comprehension Questions, Word Work Characteristics and Check for Understanding. You can ask me to repeat, skip or jump to the previous or next sub-section anytime",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    },
+    "contextOut": [
+        {
+            "name": "operations-followup",
+            "parameters": {
+                "lesson_section": "Read Aloud",
+                "intent": "smartlearning.readout.lesson.section",
+                "action": "read.lesson.section.content",
+                "query": "read read aloud section",
+                "user_id": [],
+                "sessionId": "a3c8b152-ee55-4371-a697-d6268f53fbe1",
+                "previous_response": "Read Aloud section contains 5 sub-sections.They are -Purpose for Listening, What's the weather like, Comprehension Questions, Word Work Characteristics and Check for Understanding<break time = '0.5s' />. You can ask me to repeat, skip or jump to the previous or next sub-section anytime"
+            },
+            "lifespan": 1
+        },
+        {
+            "name": "smartlearningreadoutlesson-followup",
+            "parameters": {
+                "lesson_section.original": "read aloud",
+                "lesson_name.original": "what's the weather like",
+                "lesson_name": "What's the Weather Like",
+                "lesson_sub_section.original": "purpose for listening",
+                "lesson_section": "Read Aloud",
+                "lesson_sub_section": "purpose for listening"
+            },
+            "lifespan": 17
+        },
+        {
+            "name": "smartlearningreadoutlessonsection-followup",
+            "parameters": {
+                "lesson_section.original": "read aloud",
+                "lesson_section": "Read Aloud"
+            },
+            "lifespan": 2
+        }
+    ]
+}
+2018-05-09 16:01:43,755 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [09/May/2018 16:01:43] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:44:13,285 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 15:45:00,598 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:45:00] "[33mPOST /smartlearning HTTP/1.1[0m" 404 -
+2018-05-10 15:45:13,507 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:45:13,508 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:45:13,524 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:45:14,651 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:45:14,786 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'Which area on the map is always cold? '</speak>",
+    "displayText": "Which area on the map is always cold? ",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:45:14,786 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:45:14] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:46:23,140 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 15:46:27,134 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:46:27,135 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:46:27,143 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:46:28,259 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:46:28,347 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'Would you like to continue the quiz from where you left last time or start over again?'</speak>",
+    "displayText": "Would you like to continue the quiz from where you left last time or start over again?",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:46:28,348 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:46:28] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:47:42,260 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 15:47:46,702 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:47:46,703 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:47:46,736 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:47:47,838 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:47:47,903 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"ok lets continue < break time = '1s' />Which area on the map is always cold? \"</speak>",
+    "displayText": "ok lets continue < break time = '1s' />Which area on the map is always cold? ",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:47:47,904 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:47:47] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:59:23,002 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 15:59:27,160 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:59:27,160 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:27,163 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:28,274 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:28,312 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'Would you like to continue the quiz from where you left last time or start over again?'</speak>",
+    "displayText": "Would you like to continue the quiz from where you left last time or start over again?",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:59:28,312 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:59:28] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:59:44,017 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:59:44,018 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:44,020 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:44,898 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:44,954 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"ok lets continue < break time = '1s' />Which area on the map is always cold? \"</speak>",
+    "displayText": "ok lets continue < break time = '1s' />Which area on the map is always cold? ",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:59:44,955 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:59:44] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:59:49,505 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:59:49,506 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:49,514 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:50,419 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:50,479 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'Would you like to continue the quiz from where you left last time or start over again?'</speak>",
+    "displayText": "Would you like to continue the quiz from where you left last time or start over again?",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:59:50,480 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:59:50] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 15:59:55,595 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "d78b182d-cae0-43aa-a3e9-ea8b921bb6f4",
+    "timestamp": "2018-04-23T10:48:07.57Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "take quiz on winter",
+        "action": "assessment",
+        "actionIncomplete": false,
+        "parameters": {
+            "lesson_name": "What's the weather like"
+        },
+        "contexts": [],
+        "metadata": {
+            "intentId": "e601bb2f-856a-431f-bc36-a976f26aa74d",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "webhookResponseTime": 253,
+            "intentName": "smartlearning.assessment"
+        },
+        "fulfillment": {
+            "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>",
+            "displayText": "ok lets continue the quiz from last timequiz completed",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "<speak>ok lets continue the quiz from last timequiz completed</speak>"
+                }
+            ],
+            "data": {
+                "google": {
+                    "is_ssml": true,
+                    "expect_user_response": true
+                }
+            }
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
+    },
+    "sessionId": "8ad664e4-dbc8-46ea-89f3-1685240f6aa6"
+}
+2018-05-10 15:59:55,595 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:55,603 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:56,510 [MainThread  ] [INFO ] [utils.miscellaneous           :75]  dialogflow id : 8ad664e4-dbc8-46ea-89f3-1685240f6aa6
+2018-05-10 15:59:56,568 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"ok lets continue < break time = '1s' />Which area on the map is always cold? \"</speak>",
+    "displayText": "ok lets continue < break time = '1s' />Which area on the map is always cold? ",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 15:59:56,568 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 15:59:56] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 19:20:11,167 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 19:20:16,312 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-10 19:22:42,784 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 19:22:42,949 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-10 19:26:41,734 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 19:26:44,731 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-10 19:26:58,536 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"I'm sorry. I didn't quite grasp what you just said.\"</speak>",
+    "displayText": "I'm sorry. I didn't quite grasp what you just said.",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-10 19:26:58,536 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [10/May/2018 19:26:58] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-10 19:28:05,044 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-10 19:28:09,301 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-11 11:24:37,775 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-11 11:25:07,147 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-11 11:25:07,437 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b\"I'm sorry. I didn't quite grasp what you just said.\"</speak>",
+    "displayText": "I'm sorry. I didn't quite grasp what you just said.",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    }
+}
+2018-05-11 11:25:07,437 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [11/May/2018 11:25:07] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-11 11:25:44,537 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-11 11:25:47,819 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-11 11:32:14,946 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-11 11:33:00,738 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-11 11:33:16,977 [MainThread  ] [INFO ] [summarizer.preprocessing.clean:37]  'pattern' package not found; tag filters are not available for English
+2018-05-11 11:33:17,072 [MainThread  ] [INFO ] [gensim.models.utils_any2vec   :166]  loading projection weights from D:\learning_assistant\question_classification\glove.6B.50d.txt
+2018-05-11 11:33:17,073 [MainThread  ] [DEBUG] [smart_open.smart_open_lib     :149]  {'kw': {}, 'mode': 'rb', 'uri': 'D:\\learning_assistant\\question_classification\\glove.6B.50d.txt'}
+2018-05-11 11:33:17,075 [MainThread  ] [DEBUG] [smart_open.smart_open_lib     :621]  encoding_wrapper: {'errors': 'strict', 'encoding': None, 'mode': 'rb', 'fileobj': <_io.BufferedReader name='D:\\learning_assistant\\question_classification\\glove.6B.50d.txt'>}
+2018-05-11 11:33:33,840 [MainThread  ] [INFO ] [gensim.models.utils_any2vec   :228]  loaded (400000, 50) matrix from D:\learning_assistant\question_classification\glove.6B.50d.txt
+2018-05-11 11:33:33,848 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:33,848 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:35,163 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:35,164 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:35,165 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing: many seasons year
+2018-05-11 11:33:35,658 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['many', 'seasons', 'year']
+2018-05-11 11:33:35,658 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:35,658 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:37,392 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:37,393 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:37,393 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:37,394 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:37,394 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:37,394 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:38,016 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,017 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:38,018 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,018 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:38,018 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,019 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:38,586 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,586 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:38,586 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,586 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:38,587 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:38,587 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:39,174 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,174 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:39,175 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,175 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:39,176 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,177 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:39,867 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,868 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046C3048>
+2018-05-11 11:33:39,869 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,869 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046C3080>
+2018-05-11 11:33:39,870 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:39,870 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046C3128>
+2018-05-11 11:33:40,520 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:40,521 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253C8B00>
+2018-05-11 11:33:52,907 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:52,907 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253C8B00>
+2018-05-11 11:33:52,966 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:52,966 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253C8B00>
+2018-05-11 11:33:53,006 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:53,007 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253C8B00>
+2018-05-11 11:33:53,051 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 11:33:53,051 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253C8B00>
+2018-05-11 11:33:53,100 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 11:33:53,100 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x0000000043142A90>
+2018-05-11 11:33:53,100 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing: four seasons year winter spring summer autumn
+2018-05-11 11:33:53,697 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['four', 'seasons', 'year', 'winter', 'spring', 'summer', 'autumn']
+2018-05-11 11:33:53,698 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 11:33:53,698 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x0000000043142AC8>
+2018-05-11 11:33:54,414 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 11:33:54,414 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x0000000043142978>
+2018-05-11 11:33:54,489 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 11:33:54,490 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000431422B0>
+2018-05-11 11:33:54,490 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  word seasons mean different times year
+2018-05-11 11:33:54,956 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['word', 'seasons', 'mean', 'different', 'times', 'year']
+2018-05-11 11:33:54,956 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 11:33:54,957 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x0000000043142F60>
+2018-05-11 11:33:55,533 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 11:33:55,534 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x0000000043142898>
+2018-05-11 11:33:55,595 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 11:33:55,595 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x0000000043142A90>
+2018-05-11 11:33:55,595 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  each season different weather weather united states changes depend live season is
+2018-05-11 11:33:56,200 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['each', 'season', 'different', 'weather', 'weather', 'united', 'states', 'changes', 'depend', 'live', 'season', 'is']
+2018-05-11 11:33:56,201 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 11:33:56,202 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x0000000043142470>
+2018-05-11 11:33:56,783 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 11:33:56,783 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x0000000043142240>
+2018-05-11 11:33:56,855 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 11:33:56,855 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x000000004313F588>
+2018-05-11 11:33:56,856 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  plants trees grass flowers change different seasons
+2018-05-11 11:33:57,380 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['plants', 'trees', 'grass', 'flowers', 'change', 'different', 'seasons']
+2018-05-11 11:33:57,381 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 11:33:57,381 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x000000004313F4E0>
+2018-05-11 11:33:58,072 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 11:33:58,073 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x000000004313F0F0>
+2018-05-11 11:33:58,145 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 11:33:58,145 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x000000004313BE80>
+2018-05-11 11:33:58,145 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  will also see different kinds animals different seasons
+2018-05-11 11:33:58,646 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['will', 'also', 'see', 'different', 'kinds', 'animals', 'different', 'seasons']
+2018-05-11 11:33:58,647 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 11:33:58,647 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x000000004313B160>
+2018-05-11 11:33:59,338 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 11:33:59,339 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x000000004313BEF0>
+2018-05-11 11:33:59,507 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'There are four seasons in a year:  winter, spring, summer, and autumn'</speak>",
+    "displayText": "There are four seasons in a year: winter, spring, summer, and autumn",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    },
+    "contextOut": [
+        {
+            "name": "operations-followup",
+            "parameters": {
+                "date-period": "2018-01-01/2018-12-31",
+                "geo-city": "",
+                "geo-country": "",
+                "geo-country1": "",
+                "number": "",
+                "lesson_name": "",
+                "ordinal": "",
+                "intent": "smartlearning.questions",
+                "action": "questions",
+                "query": "How many seasons are in a year",
+                "user_id": [],
+                "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b",
+                "previous_response": "There are four seasons in a year:  winter, spring, summer, and autumn"
+            },
+            "lifespan": 1
+        }
+    ]
+}
+2018-05-11 11:33:59,508 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [11/May/2018 11:33:59] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -
+2018-05-11 12:13:31,554 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-11 14:43:17,640 [MainThread  ] [INFO ] [werkzeug                      :88]   * Running on http://0.0.0.0:7400/ (Press CTRL+C to quit)
+2018-05-11 14:43:39,104 [MainThread  ] [INFO ] [__main__                      :20]  request : {
+    "id": "9d768ba9-c270-4a79-b215-a248e73e15f5",
+    "timestamp": "2018-05-10T13:48:22.296Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "How many seasons are in a year",
+        "action": "questions",
+        "actionIncomplete": false,
+        "parameters": {
+            "date-period": "2018-01-01/2018-12-31",
+            "geo-city": "",
+            "geo-country": "",
+            "geo-country1": "",
+            "number": "",
+            "lesson_name": "",
+            "ordinal": ""
+        },
+        "contexts": [],
+        "metadata": {
+            "webhookResponseTime": 167,
+            "intentName": "smartlearning.questions",
+            "intentId": "24d6a62c-12ee-4345-b91b-a9bca96597cd",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false"
+        },
+        "fulfillment": {
+            "speech": "In question intent",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "In question intent"
+                }
+            ]
+        },
+        "score": 0.8799999952316284
+    },
+    "status": {
+        "code": 206,
+        "errorType": "partial_content",
+        "errorDetails": "Webhook call failed. Error: Failed to parse webhook JSON response: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $."
+    },
+    "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b"
+}
+2018-05-11 14:43:56,055 [MainThread  ] [INFO ] [summarizer.preprocessing.clean:37]  'pattern' package not found; tag filters are not available for English
+2018-05-11 14:43:56,121 [MainThread  ] [INFO ] [gensim.models.utils_any2vec   :166]  loading projection weights from D:\learning_assistant\question_classification\glove.6B.50d.txt
+2018-05-11 14:43:56,121 [MainThread  ] [DEBUG] [smart_open.smart_open_lib     :149]  {'kw': {}, 'mode': 'rb', 'uri': 'D:\\learning_assistant\\question_classification\\glove.6B.50d.txt'}
+2018-05-11 14:43:56,123 [MainThread  ] [DEBUG] [smart_open.smart_open_lib     :621]  encoding_wrapper: {'errors': 'strict', 'encoding': None, 'mode': 'rb', 'fileobj': <_io.BufferedReader name='D:\\learning_assistant\\question_classification\\glove.6B.50d.txt'>}
+2018-05-11 14:44:13,880 [MainThread  ] [INFO ] [gensim.models.utils_any2vec   :228]  loaded (400000, 50) matrix from D:\learning_assistant\question_classification\glove.6B.50d.txt
+2018-05-11 14:44:13,944 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:13,944 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:15,506 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:15,507 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:15,507 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing: many seasons year
+2018-05-11 14:44:16,067 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['many', 'seasons', 'year']
+2018-05-11 14:44:16,067 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:16,067 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:17,767 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:17,767 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:17,767 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:17,767 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:17,768 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:17,768 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:18,346 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:18,347 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:18,348 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:18,348 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:18,349 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:18,349 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:19,002 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,002 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:19,003 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,003 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:19,004 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,004 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:19,546 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,546 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:19,547 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,547 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:19,547 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:19,548 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:20,154 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:20,155 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.sentencer.SentenceAnnotator object at 0x00000000046AAFD0>
+2018-05-11 14:44:20,156 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:20,156 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000046D0048>
+2018-05-11 14:44:20,157 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:20,157 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000046D00F0>
+2018-05-11 14:44:21,396 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:21,396 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253982E8>
+2018-05-11 14:44:33,723 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:33,723 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253982E8>
+2018-05-11 14:44:33,764 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:33,764 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253982E8>
+2018-05-11 14:44:33,811 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query sample
+2018-05-11 14:44:33,812 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000253982E8>
+2018-05-11 14:44:33,858 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 14:44:33,858 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x000000001AEE5E48>
+2018-05-11 14:44:33,859 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing: four seasons year winter spring summer autumn
+2018-05-11 14:44:34,336 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['four', 'seasons', 'year', 'winter', 'spring', 'summer', 'autumn']
+2018-05-11 14:44:34,336 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 14:44:34,337 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x0000000037F37978>
+2018-05-11 14:44:34,933 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 0
+2018-05-11 14:44:34,933 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x0000000037F37BE0>
+2018-05-11 14:44:34,992 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 14:44:34,992 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000374CFCC0>
+2018-05-11 14:44:34,992 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  word seasons mean different times year
+2018-05-11 14:44:35,474 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['word', 'seasons', 'mean', 'different', 'times', 'year']
+2018-05-11 14:44:35,474 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 14:44:35,475 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000374CF710>
+2018-05-11 14:44:36,148 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 1
+2018-05-11 14:44:36,148 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000374CFDA0>
+2018-05-11 14:44:36,212 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 14:44:36,212 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000374CFAC8>
+2018-05-11 14:44:36,212 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  each season different weather weather united states changes depend live season is
+2018-05-11 14:44:36,827 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['each', 'season', 'different', 'weather', 'weather', 'united', 'states', 'changes', 'depend', 'live', 'season', 'is']
+2018-05-11 14:44:36,827 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 14:44:36,828 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000374CFDD8>
+2018-05-11 14:44:37,454 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 2
+2018-05-11 14:44:37,454 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000374CFD30>
+2018-05-11 14:44:37,510 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 14:44:37,510 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000374DD898>
+2018-05-11 14:44:37,510 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  plants trees grass flowers change different seasons
+2018-05-11 14:44:38,201 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['plants', 'trees', 'grass', 'flowers', 'change', 'different', 'seasons']
+2018-05-11 14:44:38,201 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 14:44:38,202 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000374DD9E8>
+2018-05-11 14:44:38,682 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 3
+2018-05-11 14:44:38,683 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000374DDD30>
+2018-05-11 14:44:38,739 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 14:44:38,739 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.tokenizer.TokenAnnotator object at 0x00000000374CFCC0>
+2018-05-11 14:44:38,739 [MainThread  ] [INFO ] [QnA_processor.annotators.token:20]  tokenizing:  will also see different kinds animals different seasons
+2018-05-11 14:44:39,327 [MainThread  ] [INFO ] [QnA_processor.annotators.token:22]  tokens: ['will', 'also', 'see', 'different', 'kinds', 'animals', 'different', 'seasons']
+2018-05-11 14:44:39,328 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 14:44:39,328 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.word.WordAnnotator object at 0x00000000374CF710>
+2018-05-11 14:44:39,892 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:25]  Processing Query 4
+2018-05-11 14:44:39,892 [MainThread  ] [INFO ] [QnA_processor.annotators.pipel:20]  Initializing annotator pipeline <QnA_processor.annotators.entity_tagger.EntityTagger object at 0x00000000374CFD30>
+2018-05-11 14:44:39,982 [MainThread  ] [INFO ] [__main__                      :23]  response : {
+    "speech": "<speak>b'There are four seasons in a year:  winter, spring, summer, and autumn'</speak>",
+    "displayText": "There are four seasons in a year: winter, spring, summer, and autumn",
+    "data": {
+        "google": {
+            "expect_user_response": true,
+            "is_ssml": true
+        }
+    },
+    "contextOut": [
+        {
+            "name": "operations-followup",
+            "parameters": {
+                "date-period": "2018-01-01/2018-12-31",
+                "geo-city": "",
+                "geo-country": "",
+                "geo-country1": "",
+                "number": "",
+                "lesson_name": "",
+                "ordinal": "",
+                "intent": "smartlearning.questions",
+                "action": "questions",
+                "query": "How many seasons are in a year",
+                "user_id": [],
+                "sessionId": "99704378-41fc-4434-b268-d24eb8d7df1b",
+                "previous_response": "There are four seasons in a year:  winter, spring, summer, and autumn"
+            },
+            "lifespan": 1
+        }
+    ]
+}
+2018-05-11 14:44:39,983 [MainThread  ] [INFO ] [werkzeug                      :88]  127.0.0.1 - - [11/May/2018 14:44:39] "[37mPOST /smart-learning-app HTTP/1.1[0m" 200 -

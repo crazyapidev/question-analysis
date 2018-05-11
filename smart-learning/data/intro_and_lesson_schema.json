@@ -1,0 +1,176 @@
+{
+	"settings": {
+		"index": {
+			"mapping.total_fields.limit": 5000,
+			"number_of_shards": 3,
+			"number_of_replicas": 1
+		}
+	},
+	"mappings": {
+		"books": {
+			"properties": {
+				"book_name": {
+					"type": "text",
+					"store": true
+				},
+				"segments": {
+					"properties": {
+						"lessons": {
+							"properties": {
+								"lesson_name": {
+									"type": "text",
+									"store": true
+								},
+								"sections": {
+									"properties": {
+										"section_name": {
+											"type": "text",
+											"store": true
+										},
+										"sub_sections": {
+											"properties": {
+												"sub_section_name": {
+													"type": "text",
+													"store": true
+												},
+												"sub_section_content": {
+													"properties": {
+														"content_name": {
+															"type": "text",
+															"store": true
+														},
+														"content_text": {
+															"type": "text",
+															"store": true
+														},
+														"content_ref": {
+															"type": "text",
+															"store": true
+														},
+														"content_sub_text": {
+															"properties": {
+																"text": {
+																	"type": "text",
+																	"store": true
+																},
+																"sub_text": {
+																	"type": "text",
+																	"store": true
+																},
+																"question": {
+																	"type": "text",
+																	"store": true
+																}
+															}
+														},
+														"question_type": {
+															"type": "text",
+															"store": true
+														},
+														"question": {
+															"type": "text",
+															"store": true
+														},
+														"answer": {
+															"type": "text",
+															"store": true
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"additional_sections": {
+									"properties": {
+										"section_name": {
+											"type": "text",
+											"store": true
+										},
+										"section_content": {
+											"properties": {
+												"content_name": {
+													"type": "text",
+													"store": true
+												},
+												"content_text": {
+													"type": "text",
+													"store": true
+												},
+												"content_ref": {
+													"type": "text",
+													"store": true
+												},
+												"content_sub_text": {
+													"type": "text",
+													"store": true
+												},
+												"word": {
+													"type": "text",
+													"store": true
+												},
+												"word_meaning": {
+													"type": "text",
+													"store": true
+												},
+												"word_type": {
+													"type": "text",
+													"store": true
+												},
+												"word_variations": {
+													"type": "text",
+													"store": true
+												},
+												"word_example": {
+													"type": "text",
+													"store": true
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"introduction": {
+							"properties": {
+								"sections": {
+									"properties": {
+										"section_name": {
+											"type": "text",
+											"store": true
+										},
+										"section_text": {
+											"type": "text",
+											"store": true
+										},
+										"section_content": {
+											"properties": {
+												"content_name": {
+													"type": "text",
+													"store": true
+												},
+												"content_text": {
+													"type": "text",
+													"store": true
+												},
+												"content_ref": {
+													"type": "text",
+													"store": true
+												},
+												"content_sub_text": {
+													"type": "text",
+													"store": true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+}
